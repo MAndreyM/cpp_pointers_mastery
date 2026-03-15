@@ -1,0 +1,161 @@
+# Продукты сборки
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Папки сборки
+/build/
+/build-*/
+/bin/
+/obj/
+/Debug/
+/Release/
+/x64/
+/x86/
+/out/
+
+# Файлы компилятора и IDE
+*.swp
+*.swo
+*~
+.*.swp
+.DS_Store
+*.user
+*.useros
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.suo
+*.userprefs
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.user.*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+*.iml
+
+# Qt Creator
+*.creator.user*
+*.creator
+*.config
+*.cflags
+*.cxxflags
+*.includes
+*.files
+CMakeLists.txt.user*
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+CMakeUserPresets.json
+*.cmake
+!CMakeLists.txt
+_deps/
+
+# Скомпилированные библиотеки
+*.lib
+*.a
+*.la
+*.lo
+
+# Временные файлы
+*.tmp
+*.temp
+*.cache
+*.log
+*.tlog
+*.ilk
+*.pdb
+*.idb
+
+# Файлы покрытия кода
+*.gcda
+*.gcno
+*.gcov
+*.info
+coverage/
+htmlcov/
+
+# Документация
+docs/
+*.chm
+*.pdf
+*.epub
+*.mobi
+
+# Файлы упаковки
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# Файлы заметок (кроме README и важных .md)
+notes.md
+personal_notes.md
+temp_notes.txt
+*.bak
+*.backup
+
+# Файлы, созданные пользователем
+*.user
+*.custom
+
+# Исключения - файлы, которые нужно сохранить
+!README.md
+!**/README.md
+!**/exercises/README.md
+!**/solutions/README.md
+!.gitignore
+!.gitattributes
+!CMakeLists.txt
+!**/CMakeLists.txt
+
+# Файлы упражнений и решений - все .cpp файлы в папках exercises и solutions сохраняем
+!**/exercises/*.cpp
+!**/exercises/*.md
+!**/solutions/*.cpp
+!**/solutions/*.md
+
+# Основные файлы с кодом - сохраняем все .cpp и .h/.hpp файлы
+!**/*.cpp
+!**/*.h
+!**/*.hpp
+!**/*.c
+!**/*.cc
+!**/*.cxx
+
+# Файлы с теорией и заданиями
+!**/*.md
+!**/*.txt
